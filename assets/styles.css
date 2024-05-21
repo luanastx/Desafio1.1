@@ -19,7 +19,6 @@ a {
     text-decoration: none;
     color: #514644;
     transition: all 0.4s ease;
-
 }
 
 .nav-item a[href="formacao.html"]:hover,
@@ -32,19 +31,16 @@ a {
     color: #e048669d;
 }
 
-
-
 a:hover {
     color: #514644;
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
     border: 0px;
     border-radius: 70px;
 }
-
 
 .text-brand {
     color: #514644;
@@ -162,7 +158,6 @@ img {
 }
 
 /* CARD */
-
 .card-custom .card-custom-image {
     overflow: hidden;
 }
@@ -213,5 +208,12 @@ footer {
     bottom: 0%;
     width: 100%;
     background-color: #f8f9fa77;
+}
 
+/* Adicionar ajustes específicos para dispositivos móveis */
+@media (max-width: 991.98px) {
+    .img-topo img {
+        max-width: 200px;
+        height: auto;
+    }
 }
