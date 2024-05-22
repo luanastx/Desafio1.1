@@ -138,6 +138,10 @@ img {
             max-width: 100%;
             text-align: center;
         }
+
+        footer{
+            padding:0.1rem;
+        }
 }
 
 /* BTN */
