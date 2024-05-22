@@ -27,9 +27,10 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     border: 0px;
+    margin-bottom: 20px;
     border-radius: 70px;
 }
 
@@ -37,9 +38,6 @@ img {
     color: #514644;
 }
 
-.navbar ul{
-    margin-right: 80px;
-}
 
 .bg-base {
     background-color: #e048669d;
@@ -65,7 +63,8 @@ img {
     box-shadow: -6px 6px 0 0 #514644;
 }
 
-#formacao i {
+/* ICON */
+#atuacao i {
     font-size: 32px;
 }
 
@@ -95,6 +94,9 @@ img {
     margin-inline: 15px;
 }
 
+.navbar ul{
+    margin-right: 80px;
+}
 
 .navbar .nav-link {
     font-weight: 700;
@@ -112,39 +114,27 @@ img {
     color: #e048669d;
 
 }
-.img-topo {
-    text-align: center; /* Centraliza a imagem horizontalmente */
-}
 
-  
-.img-topo img {
-    max-width: 70%;
-    height: auto;
-}
 
+/* RESPONSIVO */
     @media (max-width: 992px) {
         .navbar-nav {
             flex-direction: column;
+            font-size: x-small;
         }
         .navbar{
             background-color: #514644e7;
+            height: 190px;
         }
+    
         .full-height{
-            margin-top:230px;
+           margin-top: 130px;
         }
         .col-12.col-md-9, .col-12.col-md-3 {
             flex: 1 1 100%;
             max-width: 100%;
             text-align: center;
         }
-        .img-topo {
-            text-align: center;
-            margin-top: 20px; /* Alinha a imagem à direita em telas menores */
-        }
-
-    
-
-    
 }
 
 /* BTN */
@@ -199,27 +189,27 @@ img {
     transform: scale(1.1);
 }
 
-/* CONTACT */
-#contact .form-control {
+/* CONTATO */
+#contato .form-control {
     background-color: #e048669d;
     border-color: #e048669d;
     color: #514644;
 }
 
-#contact .form-control:focus {
+#contato .form-control:focus {
     border-color: #514644;
     box-shadow: none;
 }
 
-#contact .form-control::placeholder {
+#contato .form-control::placeholder {
     color: #514644;
 }
 
-#contact input.form-control {
+#contato input.form-control {
     height: 44px;
 }
 
-/* SOCIAL ICONS */
+/* SOCIAIS */
 
 .sociais a {
     width: 40px;
@@ -232,17 +222,10 @@ img {
     font-size: 24px;
 }
 
+/* FOOTER */
 footer {
     position: fixed;
     bottom: 0%;
     width: 100%;
     background-color: #f8f9fa77;
-}
-
-/* Adicionar ajustes específicos para dispositivos móveis */
-@media (max-width: 991.98px) {
-    .img-topo img {
-        max-width: 200px;
-        height: auto;
-    }
 }
