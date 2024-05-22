@@ -54,6 +54,9 @@ img {
     position: relative;
 }
 
+#home{
+    padding-top: 55px;
+}
 
 .shadow-effect {
     transition: all 0.5s;
@@ -128,7 +131,7 @@ img {
         }
     
         .full-height{
-           margin-top: 170px;
+           margin-top: 180px;
         }
         .col-12.col-md-9, .col-12.col-md-3 {
             flex: 1 1 100%;
