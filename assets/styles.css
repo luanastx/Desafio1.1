@@ -50,12 +50,12 @@ img {
     flex-direction: column;
     justify-content: center;
     padding-top: 80px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     position: relative;
 }
 
 #home {
-    padding-top: 55px;
+    padding-top: 80px;
 }
 
 .shadow-effect {
@@ -130,7 +130,7 @@ img {
     }
 
     .full-height {
-        margin-top: 180px;
+        margin-top: 150px;
     }
 
     .col-12.col-md-9,
@@ -229,8 +229,11 @@ img {
 
 /* FOOTER */
 footer {
-    position: fixed;
+    
     bottom: 0%;
     width: 100%;
     background-color: #f8f9fa77;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
