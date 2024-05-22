@@ -54,7 +54,7 @@ img {
     position: relative;
 }
 
-#home{
+#home {
     padding-top: 55px;
 }
 
@@ -89,15 +89,13 @@ img {
     top: 0;
     width: 100%;
     z-index: 1000;
-
 }
-
 
 .nav-item {
     margin-inline: 15px;
 }
 
-.navbar ul{
+.navbar ul {
     margin-right: 80px;
 }
 
@@ -120,28 +118,28 @@ img {
 
 
 /* RESPONSIVO */
-    @media (max-width: 992px) {
-        .navbar-nav {
-            flex-direction: column;
-            font-size: x-small;
-        }
-        .navbar{
-            background-color: #514644e7;
-       
-        }
-    
-        .full-height{
-           margin-top: 180px;
-        }
-        .col-12.col-md-9, .col-12.col-md-3 {
-            flex: 1 1 100%;
-            max-width: 100%;
-            text-align: center;
-        }
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column;
+        font-size: x-small;
+    }
 
-        footer{
-          flex-direction: row;
-        }
+    .navbar {
+        background-color: #514644e7;
+
+    }
+
+    .full-height {
+        margin-top: 180px;
+    }
+
+    .col-12.col-md-9,
+    .col-12.col-md-3 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
 }
 
 /* BTN */
