@@ -21,15 +21,6 @@ a {
     transition: all 0.4s ease;
 }
 
-.nav-item a[href="formacao.html"]:hover,
-.nav-item a[href="formacao.html"].active {
-    color: #e048669d;
-}
-
-.nav-item a[href="atuacao.html"]:hover,
-.nav-item a[href="atuacao.html"].active {
-    color: #e048669d;
-}
 
 a:hover {
     color: #514644;
@@ -46,11 +37,8 @@ img {
     color: #514644;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+.navbar ul{
+    margin-right: 80px;
 }
 
 .bg-base {
@@ -94,38 +82,25 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: #343a40;
+    background-color: #514644f8;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+
 }
 
+
 .nav-item {
-    margin: 0 15px;
+    margin-inline: 15px;
 }
-.navbar-nav-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    text-decoration: none;
-    white-space: nowrap;
 
-}
-
-.navbar-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-   
 }
 
 .navbar .nav-link:hover {
@@ -137,23 +112,39 @@ img {
     color: #e048669d;
 
 }
+.img-topo {
+    text-align: center; /* Centraliza a imagem horizontalmente */
+}
 
+  
+.img-topo img {
+    max-width: 70%;
+    height: auto;
+}
 
     @media (max-width: 992px) {
         .navbar-nav {
-            flex-direction: row;
-        
+            flex-direction: column;
+        }
+        .navbar{
+            background-color: #514644e7;
+        }
+        .full-height{
+            margin-top:230px;
+        }
+        .col-12.col-md-9, .col-12.col-md-3 {
+            flex: 1 1 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+        .img-topo {
+            text-align: center;
+            margin-top: 20px; /* Alinha a imagem à direita em telas menores */
         }
 
-        .nav-item {
-            margin: 0 10px;
-        }
     
-        .nav-link {
-            font-size: 1.3vw;
-            padding: 8px 10px;
-        }
 
+    
 }
 
 /* BTN */
