@@ -140,7 +140,7 @@ img {
         }
 
         footer{
-            padding:0.1rem;
+          flex-direction: row;
         }
 }
 
